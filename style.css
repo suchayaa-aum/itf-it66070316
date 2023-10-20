@@ -1,7 +1,44 @@
 * {
-   background-color: hsl(204, 87%, 56%); 
+   background-color: rgb(61,160,202,255);
+   font-family: 'Mitr', sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   color: aliceblue;
 }
 
 .big {
-    font-size: large;
+    margin: 2rem;
+    font-size: 20px;
+}
+
+.img_head {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 60%;
+}
+
+.line {
+    color: azure;
+}
+
+.page {
+    border-style: solid;
+    border-color: aliceblue;
+    margin: 1rem;
+    padding: 2rem;
+    width: 500px;
+    height: 200px;
+}
+
+header {
+    margin: 4rem;
+}
+
+.contact{
+    margin: 3rem;
 }
